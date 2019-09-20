@@ -1,0 +1,113 @@
+@font-face {     
+    font-family: "playball.ttf";     
+    src: url('font/playball.ttf'); 
+}
+@font-face {    
+        font-family: "playball.ttf";     
+        font-style: italic;     
+        src: url('font/playball.ttf');
+     }
+@font-face {     
+            font-family: "playball";     
+            font-weight: regular;     
+            src: url('font/playball.ttf');
+         }
+html{
+    background-color: black;
+}
+body {
+    font-family: 'Playball', cursive;
+    background-color:dimgray;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 500px;
+    font-size: 20px
+    
+}
+
+a{
+    text-align: center;
+}
+
+h1{
+    color: wheat;
+    text-align: center;
+    font-family:a; }
+
+ li { 
+    float:left;
+    text-align: center;
+    
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+img{
+
+    display: block;
+    margin:0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 95%;
+
+}
+
+h2{color: wheat;
+    text-align: center;
+    font-family:a; 
+
+}
+
+#cannardaumiel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    
+}
+
+
+#gaspacho{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    
+}
+#saladedfruit{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+}
+h3{
+    color: wheat;
+    text-align: center;
+    font-family: Times New Roman;
+    
+ }
+
+.monImagePerso{
+    width: 95%;
+
+}
+html, body{
+    width: 100%;
+    margin: 0px;
+
+}
+
+p{
+    color: wheat;
+    text-align: justify;
+    padding: 24px 24px;
+}
