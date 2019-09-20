@@ -1,17 +1,4 @@
-@font-face {     
-    font-family: "playball.ttf";     
-    src: url('font/playball.ttf'); 
-}
-@font-face {    
-        font-family: "playball.ttf";     
-        font-style: italic;     
-        src: url('font/playball.ttf');
-     }
-@font-face {     
-            font-family: "playball";     
-            font-weight: regular;     
-            src: url('font/playball.ttf');
-         }
+
 html{
     background-color: black;
 }
@@ -53,7 +40,6 @@ li a {
   }
 
 img{
-
     display: block;
     margin:0.5cm;
     margin-left: auto;
@@ -63,9 +49,10 @@ img{
 
 }
 
-h2{color: wheat;
+h2{
+    color: wheat;
     text-align: center;
-    font-family:a; 
+    font-family:arial; 
 
 }
 
@@ -111,3 +98,28 @@ p{
     text-align: justify;
     padding: 24px 24px;
 }
+
+
+/* PROPRIETE DE LA PAGE MENUJOUR */
+
+h4{
+    color: wheat;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 1.5em;
+}
+
+h5{
+    color: wheat;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 1.5em;
+}
+
+/* PROPRIETE DE LA PAGE MENU A LA CARTE*/
+
+
+
+
+
+
