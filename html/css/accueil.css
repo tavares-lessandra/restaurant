@@ -39,15 +39,14 @@ li a {
     text-decoration: none;
   }
 
-img{
+  img{
     display: block;
-    margin:0.5cm;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+    margin: 0 auto;
+    height: 300px;
     width: 95%;
-
+    
 }
+
 
 h2{
     color: wheat;
@@ -56,11 +55,13 @@ h2{
 
 }
 
-#cannardaumiel{
+
+
+#canardaumiel{
     margin-left: auto;
     margin-right: auto;
     width: 400px;
-    
+   
 }
 
 
@@ -83,8 +84,6 @@ h3{
     
  }
 
-.monImagePerso{
-    width: 95%;
 
 }
 html, body{
@@ -115,8 +114,48 @@ h5{
     font-family: Times New Roman;
     font-size: 1.5em;
 }
+h6{
+    color: wheat;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 1.5em;
+}
 
-/* PROPRIETE DE LA PAGE MENU A LA CARTE*/
+
+/* contact*/
+p{
+    color: wheat;
+    font-family: Times New Roman;
+    font-size: 1.3em;
+}
+label{
+    color: wheat;
+    font-family: Times New Roman;
+    font-size: 1.3em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 11px 11px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    -webkit-transition: 0.8s;
+    transition: 0.5s;
+    outline: none;
+}
+/*menu du jour*/
+
+.less {
+    color: rgb(255, 251, 0);
+    font-family: Times New Roman;
+    font-size: 1.3em; 
+}
+
+/*menualacarte*/
+.plats{
+display: inline-block;
+}
 
 
 
