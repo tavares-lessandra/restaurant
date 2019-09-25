@@ -1,18 +1,27 @@
 
-html{
-    background-color: black;
+@media screen and (max-width: 690px) {
+    nav {
+      background-color: rgb(216, 223, 126);
+      margin-left: 2px;
+  }
+
 }
+
 body {
     font-family: 'Playball', cursive;
-    background-color:dimgray;
+    background-color:rgba(73, 70, 77, 0.897);
+}
+nav{
+    background-color: blue;
 }
 ul {
     list-style-type:none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 500px;
-    font-size: 20px
+    margin-left: 100px;
+    font-size: 20px;
+  
     
 }
 
@@ -28,8 +37,7 @@ h1{
  li { 
     float:left;
     text-align: center;
-    
-  }
+}
 
 li a {
     display: block;
@@ -37,14 +45,18 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(236, 228, 228);
+    color: black;
   }
 
-  img{
-    display: block;
-    margin: 0 auto;
-    height: 300px;
-    width: 95%;
-    
+img{
+    display: center;
+    margin: 20px;
+    height: 400px;
+    width: 95%; 
 }
 
 
@@ -55,28 +67,39 @@ h2{
 
 }
 
-
-
 #canardaumiel{
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    margin: 10px;
    
 }
-
+/*
+div {
+    width: 380px;
+    padding: 10px;
+    border: 5px solid rgb(14, 13, 13);
+    margin: 0;
+    margin-left: 10px;
+  }
+*/
 
 #gaspacho{
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    margin: 10px;
     
 }
 #saladedfruit{
     margin-left: auto;
     margin-right: auto;
     width: 400px;
-
+    margin: 10px;
+    
 }
+
+
 h3{
     color: wheat;
     text-align: center;
@@ -84,18 +107,10 @@ h3{
     
  }
 
-
-}
 html, body{
     width: 100%;
     margin: 0px;
 
-}
-
-p{
-    color: wheat;
-    text-align: justify;
-    padding: 24px 24px;
 }
 
 
@@ -120,45 +135,58 @@ h6{
     font-family: Times New Roman;
     font-size: 1.5em;
 }
-
-
-/* contact*/
-p{
-    color: wheat;
-    font-family: Times New Roman;
-    font-size: 1.3em;
+.menualacarte{
+    margin: 10px;
+    height: 400px;
+    width: 95%;
 }
-label{
-    color: wheat;
-    font-family: Times New Roman;
-    font-size: 1.3em;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 11px 11px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    border: 5px solid #ccc;
-    -webkit-transition: 0.8s;
-    transition: 0.5s;
-    outline: none;
-}
-/*menu du jour*/
-
 .less {
     color: rgb(255, 251, 0);
     font-family: Times New Roman;
     font-size: 1.3em; 
 }
 
+/* livre d or*/
+.forme{
+
+}
+
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+
 /*menualacarte*/
 .plats{
 display: inline-block;
 }
-
-
-
-
+/*reserve*/
 
 
