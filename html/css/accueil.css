@@ -37,6 +37,7 @@ h1{
  li { 
     float:left;
     text-align: center;
+    font-size: 1.3em;
 }
 
 li a {
@@ -45,83 +46,82 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    font-size: 1.3em;
 }
 /* Change the link color on hover */
 li a:hover {
     background-color: rgb(236, 228, 228);
     color: black;
   }
-
+/*
 img{
     display: center;
     margin: 20px;
     height: 400px;
     width: 95%; 
 }
+*/
+
+
+/*3 Photos*/
+#canardaumiel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin: 10px;
+    height: 400px;
+}
+#gaspacho {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin: 10px;
+    height: 400px;
+}
+#fruits{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin: 10px;
+    height: 400px;
+    
+}
 
 
 h2{
     color: wheat;
     text-align: center;
-    font-family:arial; 
+    font-family: Times New Roman;
+    font-size: 1em;
+ }
 
-}
-
-#canardaumiel{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin: 10px;
-   
-}
-/*
-div {
-    width: 380px;
-    padding: 10px;
-    border: 5px solid rgb(14, 13, 13);
-    margin: 0;
-    margin-left: 10px;
-  }
-*/
-
-#gaspacho{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin: 10px;
-    
-}
-#saladedfruit{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin: 10px;
-    
-}
-
-
-h3{
+ h3{
+    color: wheat;
+    text-align: center;
+    font-family: Times New Roman;    
+ }
+ h4{
     color: wheat;
     text-align: center;
     font-family: Times New Roman;
-    
  }
 
 html, body{
     width: 100%;
     margin: 0px;
-
+    font-size: 1.3em;
 }
 
 
 /* PROPRIETE DE LA PAGE MENUJOUR */
-
+/*
 h4{
     color: wheat;
     text-align: center;
     font-family: Times New Roman;
     font-size: 1.5em;
 }
+
 
 h5{
     color: wheat;
@@ -134,7 +134,7 @@ h6{
     text-align: center;
     font-family: Times New Roman;
     font-size: 1.5em;
-}
+}*/
 .menualacarte{
     margin: 10px;
     height: 400px;
@@ -154,7 +154,7 @@ h6{
  input[type=text], select {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -166,7 +166,7 @@ h6{
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 10px ;
     border: none;
     border-radius: 4px;
     cursor: pointer;
